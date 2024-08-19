@@ -1,0 +1,19 @@
+.contentWrapper {
+
+  width: 100%;
+  padding: 0 20px;
+  z-index: 1000;
+
+  @media only screen and (min-width: 920px) {
+    width: 100%;
+    padding: 0 60px;
+  }
+
+
+  @media only screen and (min-width: 1450px) {
+    width: 1350px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+}
