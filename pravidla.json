@@ -1,0 +1,138 @@
+{
+  "general": {
+    "title": "Obecná pravidla",
+    "text":
+      [
+        "1. Hraním na serveru automaticky souhlasíš se všemi pravidly. Neznalost pravidel neomlouvá.",
+        "2. Pravidla platí na všech částech serveru a všech jeho službách. (web,discord,…)",
+        "3. Připojením na server souhlasíš se zpracováním osobních údajů GDPR.",
+        "4. Povinností každého hráče je v první řadě dodržovat veškeré zákony a ustanovení České a Slovenské republiky.",
+        "5. Vedení serveru si vyhrazuje právo změnit pravidla bez předchozího upozornění.",
+        "6. Nehledejte chyby a mezery v pravidlech, nezneužívejte je a neslovíčkařte. Pokud nějakou takovou mezeru najdete, nahlašte ji přímo AT, abychom ji mohli opravit.",
+        "7. Veškeré stížnosti na členy AT směřujte do ticket systému na Discordu či na E-Mail: misak.burianek@seznam.cz",
+        "8. AT má právo vyzvat hráče k ukončení jakékoli činnosti, jenž porušuje pravidla serveru. Hráč je povinen výzvu uposlechnout.",
+        "9. Nikdy nikomu nesdělujte své přihlašovací údaje, platí i pro AT. Vedení vaše údaje nepotřebuje znát a v případě změny hesla apod.. je schopné si údaje dohledat bez vašeho zásahu.",
+        "10. Každý hráč si za svůj účet nese odpovědnost sám. To znamená žádné výmluvy na sourozence, kočky, psy, morčata ani nic jiného.",
+        "11. Pokud zažádáte o přesun obsahu účtu na jiný nick (pouze na origo), mějte na paměti, že některý obsah účtu není možné převést.",
+        "12. Nesdělujte nikdy nikomu jakékoliv vaše citlivé informace. Toto je dělejte pouze na svoje vlastní nebezpečí. Server nenese za toto jednání žádnou odpovědnost.",
+        "13. Vždy se k ostatním chovejte tak, jak chcete, aby se oni chovali k vám. Každý si zalouží svoji dávku respektu.",
+        "14. Na serveru je přísně zakázáno žebrat či prosit v jakékoliv formě o rank, prefix apod..",
+        "15. Je zakázáno být připojen/a za více účtů zároveň pro získání jakékoliv výhody. (AFK u farem, farmění statistik, atd.)",
+        "16. Pokud hráč objeví nějakou chybu, či bug, tak má povinnost jej automaticky nahlásit AT. Pokud tak neučiní, může mu být udělen trest.",
+        "17. Pokud hráč zneužívá herní bug, bude mu udělen ban v závislosti na míře prohřešku. To může vést až k permanentnímu banu.",
+        "18. Pokud bylo hráči omezeno komunikovat (mute) nebo vstup na server, či na nějakou službu, nesmí jej jakýmkoliv způsobem obcházet. V opačném případě dostane permanetní ban na IP adresu.",
+        "19. Zákaz používání nevhodného skinu. (Skin obsahující náboženskou, politickou nebo jinou nevhodnou tématiku.) Pokud si chcete nastavit skin, který si sám vytvořil nějaký člen AT, musíte nejdříve získat jeho povolení.",
+        "20. Zákaz používání nevhodného nicku. Též není povoleno mít podobný nick jako člen AT nebo se vydávat za jinou veřejně známou osobnost.",
+        "21. Zákaz lhaní nebo šíření nepravdivých informací o serveru, či členech AT.",
+        "22. Je přísně zakázáno obchodovat s hráči za jinou měnu, než je herní.",
+        "23. Hráč je povinen mít stejný nebo podobný nick jako ve hře, kvůli jeho identifikaci."
+      ]
+
+  },
+
+  "chat": {
+    "title": "Pravidla v chatu",
+    "text":
+    [
+      "1. Zákaz nevhodného vyjadřování, urážek či nadávek.",
+      "2. V soukromých zprávách na serveru se toto trestá jen ve chvíli, kdy jedna ze dvou stran koverzaci nahlásí.",
+      "3. Přísný zákaz rasismu, nacismu apod..",
+      "4. Je přísně zakázáno vyhrožovat mimo jakékoliv služby projektu DarkCraft.cz.",
+      "5. Zákaz reklamy na jakýkoliv jiný československý server, či jeho službu. Samotná jména serverů se netrestají.",
+      "6. Na serveru je přísně zakázáno vyvolávat hádky v jakékoliv podobě.",
+      "7. Vulgarismy se trestají i přes jejich vycenzurování.",
+      "8. Mezi urážky, které se mohou (ale nemusí) trestat, jsou: Kid, Noob, Loser, apod..",
+      "9. Pokud byl hráč umlčen, je mu povoleno komunikovat s ostatními pomocí friends nebo cedulek.",
+      "10. Odkazy, které posíláte musí být bezpečné a nesmí obsahovat reklamu, nahotu, hazard ani žádné jiné 18+ prvky. Veškerá pravidla se vztahují i na obsah na povolených stránkách.",
+      "11. Rozsáhlé debaty o náboženství nejsou kvůli citlivosti tématu povoleny.",
+      "12. Zákaz tvoření jakékoliv reklamy pro hazard. Pochopitelně do této sekce spadají primárně kasína a ostatní takové stránky.",
+      "13. Je přísně zakázáno spamovat, či vytvářet nadbytečné reporty."
+    ]
+  },
+  "hacks": {
+    "title": "Pravidla herních modifikací",
+    "text":
+    [
+      "1. Je přísný zákaz užívání cheat klientů a všech druhů cheatů, které jakkoliv zvýhodňují hráče.",
+      "2. Různá makra, autoclickery, doubleclicky, atd. nejsou povoleny. To stejné platí pro HW.",
+      "3. Jsou zakázány všechny modifikace hry, které nějak mění, znatelně ulehčují hru nebo obohacují hráče.",
+      "Povolené modifikace jsou tyto:",
+      "4. Mody - Optifine, Sodium, Litematica, Minimapa, DMG Indicator, Armor Status, Iris Shaders, StarLight, TMI, Shulkerbox Tooltip, Dynamic Lights a jim podobné.",
+      "5. Shadery - Všechny možné shadery jako SEUS, Sildurs, Chocapic apod..",
+      "6. ResourcePacky - Běžné ResourcePacky kromě X-Ray apod..",
+      "7. Je přísně zakázáno využívat modifikace, které skrývají nebo mění reálné informace o připojeném hráči.",
+      "8. Zneužívání dynamické IP nebo VPN za účelem porušování pravidel se trestá."
+    ]
+  },
+  "survival": {
+    "title": "Pravidla Survival serveru",
+    "text":
+    [
+      "1. Server nenese žádnou odpovědnost za změny způsobené přechodem na novější či starší verzi Minecraftu.",
+      "2. Je přísně zakázáno poškozovat stavební svět jakýmkoliv způsobem.",
+      "3. Je přísně zakázáno griefovat nebo jakkoliv jinak úmyslně ničit stavby ostatních hráčů. To platí i v případě, že vám hráč přidal povolení v res.",
+      "4. Zákaz si přivlastňovat nebo ničit cizí stavby/předměty, pokud nejsou plně v blízké residenci.",
+      "5. Teleportace hráče k jinému hráči za účelem zabití je přísně zakázána a trestána (TpaKill).",
+      "6. Těžební svět se vždy po intervalech resetuje, proto doporučujeme v něm nic nestavět.",
+      "7. Neničte železnice a ledové dráhy (pro lodě). Tímto způsobem si hráči propojují base. Jedná se o společný komunitní projekt, který nelze plně ochránit reskou a tak je tu toto pravidlo.",
+      "8. Pokud se nacházíte v cizí res a majitel si bude přát, abyste odešli, poslechněte ho.",
+      "9. Je zakázáno ničit ekonomiku příliš nízkými nebo naopak vysokými cenami. To platí i pro časté rozdávání cenných itemů nebo vysokých částek jiným hráčům.",
+      "10. Přísný zákaz krádeží čehokoliv.",
+      "11. Přísný zákaz obcházení ochrany res jakýmkoliv způsobem.",
+      "12. Nedělejte velké zdi nebo jiné barikády, přes které se nejde dostat. Obvzlášť okolo celých biomů.",
+      "13. Zákaz reskování biomů jen pro následné prodání.",
+      "14. Je přísně zakázáno nabádat hráče k teleportu jakéhokoliv druhu, který by ho dostal do arény (kde může ztratit věci), bez předchozího upozornění.",
+      "15. Zákaz vytváření residencí v blízkosti cizích staveb nebo resek bez souhlasu majitele daného místa. Mějte ideálně +- 100b mezeru.",
+      "16. Zákaz pojmenovávání petů, entit, sebe (premium /nick) nebo itemů nevhodně. Vyjímku tvoří pouze itemy, které si necháváte pro sebe někde uzamčeny ve sbírce a nebudou veřejně dostupné (item frame).",
+      "17. Pokud chce někdo provozovat kasíno, musí u každé 'atrakce' mít napsanou % šanci na výhru včetně výhry samotné (itemy, částka, reska, rank,…).",
+      "18. Zákaz stavění nevhodných staveb.",
+      "19. Zákaz přivlastňování si staveb, které jste nepostavili a kterých nejste původní autoři. To platí i pro stavby z YT a jiných stránek.",
+      "20. Náhrada ztracených věcí je možná pouze, pokud to byla vina přímo serveru (bug/crash).",
+      "21. Nenahrazujeme itemy z hlasování, pokud jste měli plný inventář nebo došlo k selhání hlasovacího systému. Hlasovací weby nejsou naše.",
+      "22. Je zakázáno griefovat stavby, které jsou 100 blocků od resky."
+    ]
+  },
+  "discord": {
+    "title": "Discord",
+    "text":
+    [
+      "1. V chatovacích místnostech platí stejná pravidla jako pro Pravidla chatu, která jsou vypsaná výše.",
+      "2. V Discord voice je zakázáno spamování SoundBoardů a hlasitého povyku.",
+      "3. Hudbu lze pouštět pouze se souhlasem ostatních v místnosti."
+    ]
+  },
+  "events": {
+    "title": "Giveaway a eventy",
+    "text":
+    [
+      "1. Výhru hráč obdrží maximálně týden po skončení eventu.",
+      "2. Pokud výherce výhru nechce (nebo jen část), může jej přenechat druhému místu.",
+      "3. Výhru nelze převádět na nick, který se eventu / giveaway neúčastnil.",
+      "4. V případě hmotné výhry mimo hru lze i tuto část výhry přenechat někomu jinému. Výherce to ale musí dát vědět ideálně do 2 dnů po odehrání eventu.",
+      "5. V případě giveaway není možné výhru někomu přenechat."
+    ]
+  },
+  "punishments": {
+    "title": "Tresty",
+    "text":
+    [
+      "1. Hráči nevidí přesný banovací pořádek.",
+      "2. Každý udělený trest se může začít při opakovaném porušování stejného pravidla stupňovat a v některých případech může vést až k permanentnímu banu.",
+      "3. Pokud má hráč aktivní ban, není možné si nechat po tu dobu přesunout věci a statistiky na jiný účet. Vyjímku tvoří pouze ban za nevhodný nick.",
+      "4. Pokud hráč dostal ban nebo jiný trest na 3 dny a delší, může se k tomuto trestu odvolat na příslušném místě.",
+      "5. Pokud víte, že jste něco porušili a dostali trest na 3 dny a více a hodláte se odvolat, tak důrazně doporučujeme nelhat.",
+      "6. Hráč je povinen nahlásit konání jiného hráče v případě, že porušuje pravidla nebo zákony. Pokud tak neučiní, bude automaticky brán jako spoluviník a dostane stejný trest. Pro nahlášení je třeba mít důkazní materiál (screen / video). Svědek se jako důkazní materiál nepočítá.",
+      "7. Zákaz křivého obviňování bez důkazů. Takovéto jednání bude trestáno.",
+      "Do trestu se promítá toto:",
+      "- Závažnost prohřešku",
+      "- Opakované porušování",
+      "- Četnost porušování různých pravidel za určitou dobu",
+      "- Lhaní AT při minulých pokusech u odvolání",
+      "- Počet a druh porušených pravidel pro tento trest"
+    ]
+  },
+  "otherInfo": [
+    "Trest může být udělen od vedení serveru i z jakýkoliv jiných důvodů, než jsou výšepopsané.",
+    "Činnosti, které nejsou mezi zakázanými nemusejí být vždy brány jako povolené."
+  ]
+}

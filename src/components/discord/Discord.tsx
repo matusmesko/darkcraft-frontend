@@ -2,8 +2,12 @@ import React from 'react';
 import styles from "./page.module.scss"
 import Wrapper from "@/components/wrapper/Wrapper";
 import {FaDiscord} from "react-icons/fa";
+import {promises as fs} from "fs";
 
-const Discord = () => {
+const Discord = async () => {
+    const file = await fs.readFile(process.cwd() + "/settings.json", "utf-8");
+    const data = JSON.parse(file);
+
     return (
         <section className={styles.discord}>
             <Wrapper>
@@ -13,10 +17,10 @@ const Discord = () => {
                         <div className={styles.wumpus}>
                             <img src="/wumpus.webp" alt="wumpus"/>
                         </div>
-                        
+
                         <div className={styles.text}>
                             <div className={styles.textContainer}>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus aspernatur at consequuntur, cum dolor est ex explicabo hic illo ipsa nam, numquam perferendis quaerat quia quibusdam sit tempora vel voluptatum.</p>
+                                <p>{data.discord}</p>
                                 <a href="">PRIPOJIT SE NA DISCORD <FaDiscord/></a>
                             </div>
                         </div>
