@@ -2,7 +2,7 @@
 
 
 .header {
-  min-height: 50vh;
+  min-height: 500px;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -20,7 +20,7 @@
   }
 }
 
-@media only screen and (max-width: 310px) {
+@media only screen and (max-width: 425px) {
   .header {
     h1 {
       font-size: 50px;
@@ -28,7 +28,7 @@
   }
 }
 
-@media only screen and (max-width: 220px) {
+@media only screen and (max-width: 290px) {
   .header {
     h1 {
       font-size: 40px;

@@ -1,0 +1,117 @@
+{
+  "owner": {
+    "show": true,
+    "players": [
+      {
+        "name": "sterixiiq",
+        "rank": "Majitel",
+        "color": "#de5757",
+        "uuid": "8667ba71b85a4004af54457a9734eed7"
+      }
+    ]
+},
+
+  "management": {
+    "show": true,
+    "players": [
+      {
+        "name": "Knedla_CZ",
+        "rank": "Vedení",
+        "color": "#ded357",
+        "uuid": "6df577d10ac74505bf73d8ed55967334"
+      },
+      {
+        "name": "simonhrajeMC",
+        "rank": "Vedení",
+        "color": "#ded357",
+        "uuid": "9ca9215d60154a51aad1add958aa5671"
+      }
+    ]
+  },
+
+  "technik": {
+    "show": false,
+    "players": [
+
+    ]
+  },
+
+  "helper": {
+    "show": true,
+    "players": [
+      {
+        "name": "Gerwyyn",
+        "rank": "Hl. Helper",
+        "color": "#de5757",
+        "uuid": "ad4dfc7c4518416fafc8b3e3cd7d2ffc"
+      },
+      {
+        "name": "TomasOCELAR",
+        "rank": "Helper",
+        "color": "#74de57",
+        "uuid": "74ef332c99b446c89e9fa0a0336c2e59"
+      },
+      {
+        "name": "morefrajer",
+        "rank": "Helper",
+        "color": "#74de57",
+        "uuid": "72073ba6d7864e25973388423af306a2"
+      },
+      {
+        "name": "Zabacekpepe",
+        "rank": "Helper",
+        "color": "#74de57",
+        "uuid": "7db210a15a204407a84816c0f28c31b0"
+      }
+    ]
+  },
+
+  "eventer": {
+    "show": true,
+    "players": [
+      {
+        "name": "salamander4",
+        "rank": "Eventer",
+        "color": "#de9457",
+        "uuid": "2b0e006180ba458b823364d1742a07ed"
+      },
+      {
+        "name": "Bad_Monster",
+        "rank": "Eventer",
+        "color": "#de9457",
+        "uuid": "00c61eec808b49139faa2d5af369e398"
+      },
+      {
+        "name": "slipka2",
+        "rank": "Eventer",
+        "color": "#de9457",
+        "uuid": "883478a424dc4419b45822f065cbc065"
+      }
+    ]
+  },
+
+  "builder": {
+    "show": true,
+    "players": [
+      {
+        "name": "Wlouk",
+        "rank": "Builder",
+        "color": "#57debf",
+        "uuid": "a949a02b0a3044b0b9904e1af0943d55"
+      },
+      {
+        "name": "MastraDev",
+        "rank": "Builder",
+        "color": "#57debf",
+        "uuid": "202e6019c9304f86962d80f1f85f74eb"
+      },
+      {
+        "name": "Csvncsn",
+        "rank": "Builder",
+        "color": "#57debf",
+        "uuid": "8667ba71b85a4004af54457a9734eed7"
+      }
+    ]
+  }
+
+}
