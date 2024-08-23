@@ -4,7 +4,7 @@ interface propTypes {
     image: string | undefined,
     title: string | undefined,
     desc: string | undefined,
-    color: React.CSSProperties,
+    color: React.CSSProperties | string | any | undefined,
 
 }
 

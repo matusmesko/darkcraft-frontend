@@ -13,7 +13,7 @@ const Page = async () => {
                     <div>
                         <h3>{data.general.title}</h3>
                         {
-                            data.general.text.map((e, index) => {
+                            data.general.text.map((e : string, index : any) => {
                                 return (
                                     <p key={index}>{e}</p>
                                 )
@@ -24,7 +24,7 @@ const Page = async () => {
                     <div>
                         <h3>{data.chat.title}</h3>
                         {
-                            data.chat.text.map((e, index) => {
+                            data.chat.text.map((e : string, index : any) => {
                                 return (
                                     <p key={index}>{e}</p>
                                 )
@@ -35,7 +35,7 @@ const Page = async () => {
                     <div>
                         <h3>{data.hacks.title}</h3>
                         {
-                            data.hacks.text.map((e, index) => {
+                            data.hacks.text.map((e : string, index : any) => {
                                 return (
                                     <p key={index}>{e}</p>
                                 )
@@ -46,7 +46,7 @@ const Page = async () => {
                     <div>
                         <h3>{data.survival.title}</h3>
                         {
-                            data.survival.text.map((e, index) => {
+                            data.survival.text.map((e : string, index : any) => {
                                 return (
                                     <p key={index}>{e}</p>
                                 )
@@ -57,7 +57,7 @@ const Page = async () => {
                     <div>
                         <h3>{data.discord.title}</h3>
                         {
-                            data.discord.text.map((e, index) => {
+                            data.discord.text.map((e : string, index : any) => {
                                 return (
                                     <p key={index}>{e}</p>
                                 )
@@ -68,7 +68,7 @@ const Page = async () => {
                     <div>
                         <h3>{data.events.title}</h3>
                         {
-                            data.events.text.map((e, index) => {
+                            data.events.text.map((e : string, index : any) => {
                                 return (
                                     <p key={index}>{e}</p>
                                 )
@@ -79,7 +79,7 @@ const Page = async () => {
                     <div>
                         <h3>{data.punishments.title}</h3>
                         {
-                            data.punishments.text.map((e, index) => {
+                            data.punishments.text.map((e : string, index : any) => {
                                 return (
                                     <p key={index}>{e}</p>
                                 )
@@ -89,7 +89,7 @@ const Page = async () => {
 
                     <div className={styles.otherInfo}>
                         {
-                            data.otherInfo.map((e, index) => {
+                            data.otherInfo.map((e : string, index : any) => {
                                 return (
                                     <p key={index}>{e}</p>
                                 )

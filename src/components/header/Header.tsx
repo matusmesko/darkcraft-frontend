@@ -7,7 +7,7 @@ import {getMcServerInfo} from "@/uitls/fetch";
 
 const Header = () => {
 
-    const [playerCount, setPlayerCount] : number = useState(0);
+    const [playerCount, setPlayerCount] : any = useState(0);
 
     useEffect(() => {
 
