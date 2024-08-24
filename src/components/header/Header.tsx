@@ -28,7 +28,7 @@ const Header = () => {
                     <div className={styles.infoContainer}>
                         <h1>Připrav se!</h1>
                         <img src="/darkcraftText.png" alt="darkcraft"/>
-                        <p className={styles.serverInfo}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, asperiores consequatur cumque deserunt doloremque ducimus, et illo incidunt inventore magni maxime obcaecati odio quos ratione repudiandae rerum suscipit! Mollitia, velit?</p>
+                        <p className={styles.serverInfo}>Jsme československý Minecraft server, který se zaměřuje především na naši minihru Economy survival. Tento server existuje již přes 2 roky a máme spoustu zkušeností, které jsme zpracovali a uplatnili do jednoho serveru, aby hráč měl perfektní a unikátní, přímo nekonečný zážitek možností, které se u nás dají dělat. Připojení je možné i skrze Bedrock a port pro tuto edici je: 19132</p>
                         <div className={styles.counterContainer}>
                             <div></div>
                             <p>Online {playerCount == 1 && playerCount + " hráč"}{(playerCount <= 4 && playerCount > 1 )&& playerCount + " hráči"}{(playerCount >= 5 || playerCount === 0) && playerCount + " hráčů"}</p>
@@ -36,7 +36,7 @@ const Header = () => {
                     </div>
 
                     <div className={styles.imageContainer}>
-                        <img src="/včely.png" alt="včely"/>
+                        <img src="/včela4.png" alt="včely"/>
                     </div>
                 </div>
             </Wrapper>

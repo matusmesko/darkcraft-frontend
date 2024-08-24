@@ -29,7 +29,8 @@
       justify-content: center;
 
       .card {
-        width: 375px;
+        max-width: 375px;
+        max-height: 190px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -56,7 +57,9 @@
         }
 
         .cardImage {
-          width: 100%;
+          img {
+            width: 130px;
+          }
         }
       }
     }
@@ -80,23 +83,13 @@
 
 @media only screen and (max-width: 430px) {
   .card {
-    width: 330px !important;
+    max-width: 300px !important;
     padding: 13px !important;
   }
-}
-
-@media only screen and (max-width: 380px) {
-
-  .card {
-    width: 280px !important;
-  }
-
   .cardImage {
     img {
-      width: 80%;
-      margin-left: 10px;
+      width: 120px !important;
     }
-
   }
 
   .cardText {
@@ -105,6 +98,29 @@
     }
     p {
       font-size: 13px;
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+
+  .card {
+    max-width: 280px !important;
+  }
+
+  .cardImage {
+    img {
+      width: 100px !important;
+    }
+
+  }
+
+  .cardText {
+    h4 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 12px;
     }
   }
 }
@@ -142,7 +158,7 @@
   }
 
   .card {
-    width: 200px !important;
+    max-width: 200px !important;
     padding: 10px;
   }
 
@@ -153,6 +169,12 @@
 
     h4 {
       font-size: 13px;
+    }
+  }
+
+  .cardImage {
+    img {
+      width: 80px !important;
     }
   }
 }

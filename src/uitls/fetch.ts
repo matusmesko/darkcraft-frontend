@@ -19,9 +19,10 @@ const getMinecraftServeryAPI = async () => {
 };
 
 const getCzechCraftAPI = async () => {
-    return await fetch('https://czech-craft.eu/api/server/darkcraft-9823/', {
+    return await fetch('https://cors-anywhere.herokuapp.com/https://czech-craft.eu/api/server/darkcraft-9823/', {
         cache: 'no-cache',
-        mode: 'no-cors'
+        mode: 'cors',
+        method: 'GET'
     })
         .then(res => res.json())
         .then((result: any) => {
@@ -32,7 +33,8 @@ const getCzechCraftAPI = async () => {
 const getCraftListAPI = async () => {
     return await fetch('https://api.craftlist.org/v1/vbb8c0n4bqnbphnmksf4/info', {
         cache: 'no-cache',
-        mode: 'no-cors'
+        mode: 'no-cors',
+        method: 'GET',
     })
         .then(res => res.json())
         .then((result: any) => {
