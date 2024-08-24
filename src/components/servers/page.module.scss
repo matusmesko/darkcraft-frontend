@@ -30,7 +30,7 @@
 
       .card {
         max-width: 375px;
-        max-height: 190px;
+        height: 190px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -130,6 +130,11 @@
     h3 {
       font-size: 40px !important;
     }
+  }
+
+  .card {
+    padding: 10px !important;
+    height: 150PX !important;
   }
 }
 
