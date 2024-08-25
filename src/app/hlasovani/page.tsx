@@ -7,6 +7,7 @@ import {getCraftBookAPI, getMinecraftListAPI, getMinecraftServeryAPI} from "@/ui
 import {getCzechCraftAPI} from "@/uitls/fetch";
 import {getCraftListAPI} from "@/uitls/fetch";
 
+
 const Page = () => {
     const [userName, setUsername] = useState("");
 
@@ -68,10 +69,38 @@ const Page = () => {
                             </button>
                         </div>
                     </form>
-                    <div className={styles.statContainer}>
-                        <div>
 
-                        </div>
+
+                    <div className={styles.statContainer}>
+                        <a href={"https://minecraftservery.eu/server/darkcraft"} target={"_blank"} className={styles.card + " " + styles.minecraftservery}>
+                           <div>
+                               <h3>MinecraftServery</h3>
+                               <p>Pozice {minecraftServery}</p>
+                           </div>
+                            <div>
+                                <img src="/logo-minecraftservery.svg" alt="logo"/>
+                            </div>
+                        </a>
+
+                        <a href={"https://www.minecraft-list.cz/server/darkcraft"} target={"_blank"} className={styles.card + " " + styles.minecraftlist}>
+                            <div>
+                                <h3>MinecraftList</h3>
+                                <p>Pozice {minecraftList}</p>
+                            </div>
+                            <div>
+                                <img src="/logo-minecraft-list.svg" alt="logo"/>
+                            </div>
+                        </a>
+
+                        <a href={"https://craftbook.cz/server/74"} target={"_blank"} className={styles.card + " " + styles.craftbook}>
+                            <div>
+                                <h3>CraftBook</h3>
+                                <p>Pozice {craftBook}</p>
+                            </div>
+                            <div>
+                                <img src="/logo-craftbook.png" alt="logo"/>
+                            </div>
+                        </a>
                     </div>
 
                 </div>

@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 25px;
+    gap: 50px;
 
     form {
       display: flex;
@@ -82,12 +82,111 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    gap: 25px;
+    width: 80%;
+
+    .card {
+      background-size: cover;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      min-width: 375px;
+      padding: 15px;
+      border-radius: 15px;
+
+      h3 {
+        font-family: "Kanit", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 25px;
+      }
+
+      p {
+        font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      img {
+        width: 75px;
+      }
+    }
   }
 }
+
+.minecraftservery {
+  background: url("/minecraftservery.png") no-repeat center;
+}
+
+.minecraftlist {
+  background: url("/minecraftlist.png") no-repeat center;
+}
+
+.craftbook {
+  background: url("/craftbook.png") no-repeat center;
+}
+
+@media only screen and (max-width: 700px) {
+  .buttonContainer {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 100% !important;
+
+    button {
+      width: 327px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 430px) {
+
+  .statContainer {
+    width: 90%;
+  }
+
+  .card {
+    min-width: 0 !important;
+    width: 100%;
+
+    h3 {
+      font-size: 20px !important;
+    }
+
+    img {
+      width: 65px !important;
+    }
+  }
+}
+
 
 @media only screen and (max-width: 380px) {
   .inputContainer {
     width: 80%;
+  }
+
+  .buttonContainer {
+    button {
+      width: 80% !important;
+    }
+  }
+
+  .statContainer {
+    width: 90% !important;
+  }
+
+  .card {
+    min-width: 0 !important;
+    width: 100%;
+
+    h3 {
+      font-size: 18px !important;
+    }
+
+    img {
+      width: 50px !important;
+    }
   }
 }
 
@@ -96,6 +195,24 @@
   .inputContainer {
     input {
       font-size: 16px !important;
+    }
+  }
+
+  .card {
+    h3 {
+      font-size: 15px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 280px) {
+  .statContainer {
+    width: 100% !important;
+  }
+
+  .card {
+    img {
+      width: 40px !important;
     }
   }
 }
