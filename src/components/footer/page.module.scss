@@ -1,0 +1,121 @@
+.footer {
+  color: white;
+  background-color: #252525;
+
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+      max-width: 375px;
+      max-height: 250px;
+    }
+
+    .upperContainer {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      border-bottom: #414141 1px solid;
+
+      .imgContainer {
+
+      }
+
+      .textContainer {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        p {
+          font-family: "Kanit", sans-serif;
+          font-weight: 300;
+          font-style: normal;
+          margin-top: 10px;
+          width: 100%;
+        }
+
+        .linkContainer {
+          display: flex;
+          flex-direction: row;
+          gap: 10px;
+          margin-top: 10px;
+
+          a {
+            background-color: #414141;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: "Kanit", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            transition: .3s;
+            &:hover {
+              background-color: #2f2f2f;
+            }
+          }
+        }
+      }
+    }
+
+    .authorContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 0;
+      text-align: center;
+      p {
+        font-family: "Kanit", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+      a {
+        color: #D45BBB;
+      }
+
+      span {
+        color: #D45BBB;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .upperContainer {
+    flex-direction: column !important;
+    padding: 25Px 0;
+  }
+  .textContainer {
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+  }
+
+  .imgContainer {
+    display: none;
+  }
+
+  .authorContainer {
+    p {
+      font-size: 13px !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container {
+    img {
+      max-width: 100% !important;
+    }
+  }
+  .textContainer {
+    width: 90% !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+}
