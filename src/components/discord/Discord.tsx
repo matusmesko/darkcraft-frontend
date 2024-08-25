@@ -4,6 +4,7 @@ import Wrapper from "@/components/wrapper/Wrapper";
 import {FaDiscord} from "react-icons/fa";
 import {promises as fs} from "fs";
 
+
 const Discord = async () => {
     const file = await fs.readFile(process.cwd() + "/settings.json", "utf-8");
     const data = JSON.parse(file);

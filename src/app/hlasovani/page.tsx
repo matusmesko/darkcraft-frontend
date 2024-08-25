@@ -6,11 +6,11 @@ import { FiLink } from "react-icons/fi";
 import {getCraftBookAPI, getMinecraftListAPI, getMinecraftServeryAPI} from "@/uitls/fetch";
 import {getCzechCraftAPI} from "@/uitls/fetch";
 import {getCraftListAPI} from "@/uitls/fetch";
-
+import { motion, useScroll } from "framer-motion"
 
 const Page = () => {
     const [userName, setUsername] = useState("");
-
+    const { scrollYProgress } = useScroll();
     const [minecraftServery, setMinecraftServery]: any = useState(0);
     const [czechCraft, setCzechCraft]: any = useState(0);
     const [craftList, setCraftlist]: any = useState(0);
@@ -43,6 +43,7 @@ const Page = () => {
         <section className={styles.hlasovani}>
             <Wrapper>
                 <div className={styles.container}>
+
                     <form onSubmit={(e) => e.preventDefault()}>
                         <div className={styles.inputContainer}>
                             <img
@@ -75,7 +76,7 @@ const Page = () => {
                         <a href={"https://minecraftservery.eu/server/darkcraft"} target={"_blank"} className={styles.card + " " + styles.minecraftservery}>
                            <div>
                                <h3>MinecraftServery</h3>
-                               <p>Pozice {minecraftServery}</p>
+                               <p>Pozice: {minecraftServery}</p>
                            </div>
                             <div>
                                 <img src="/logo-minecraftservery.svg" alt="logo"/>
@@ -85,7 +86,7 @@ const Page = () => {
                         <a href={"https://www.minecraft-list.cz/server/darkcraft"} target={"_blank"} className={styles.card + " " + styles.minecraftlist}>
                             <div>
                                 <h3>MinecraftList</h3>
-                                <p>Pozice {minecraftList}</p>
+                                <p>Pozice: {minecraftList}</p>
                             </div>
                             <div>
                                 <img src="/logo-minecraft-list.svg" alt="logo"/>
@@ -95,7 +96,7 @@ const Page = () => {
                         <a href={"https://craftbook.cz/server/74"} target={"_blank"} className={styles.card + " " + styles.craftbook}>
                             <div>
                                 <h3>CraftBook</h3>
-                                <p>Pozice {craftBook}</p>
+                                <p>Pozice: {craftBook}</p>
                             </div>
                             <div>
                                 <img src="/logo-craftbook.png" alt="logo"/>

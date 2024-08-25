@@ -14,7 +14,7 @@ const Footer = () => {
                     <div className={styles.upperContainer}>
                         <div className={styles.textContainer}>
                             <img src="/darkcraftText.png" alt="darkcraft"/>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor Lorem ipsum dolor sit amet, consectetur </p>
+                            <p>Pro více informací se připoj na náš discord kde najdeš všechny novinky, nábory, eventy a mnoho dalšího. </p>
                             <div className={styles.linkContainer}>
                                 <Link href={"/hlasovani"}>HLASOVÁNÍ</Link>
                                 <Link href={"/pravidla"}>PRAVIDLA</Link>

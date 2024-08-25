@@ -4,6 +4,7 @@ import Servers from "@/components/servers/Servers";
 import Discord from "@/components/discord/Discord";
 
 export default function Home() {
+
   return (
    <>
       <Header/>
