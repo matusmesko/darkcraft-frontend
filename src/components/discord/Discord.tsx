@@ -22,7 +22,7 @@ const Discord = async () => {
                         <div className={styles.text}>
                             <div className={styles.textContainer}>
                                 <p>{data.discord}</p>
-                                <a href="">PRIPOJIT SE NA DISCORD <FaDiscord/></a>
+                                <a href="https://discord.com/invite/QFZ7KG2Ht5">PRIPOJIT SE NA DISCORD <FaDiscord/></a>
                             </div>
                         </div>
                     </div>

@@ -16,7 +16,7 @@ const Footer = () => {
                             <img src="/darkcraftText.png" alt="darkcraft"/>
                             <p>Pro více informací se připoj na náš discord kde najdeš všechny novinky, nábory, eventy a mnoho dalšího. </p>
                             <div className={styles.linkContainer}>
-                                <Link href={"/hlasovani"}>HLASOVÁNÍ</Link>
+                                <Link href={"/gdpr"}>GDPR</Link>
                                 <Link href={"/pravidla"}>PRAVIDLA</Link>
                             </div>
                         </div>
