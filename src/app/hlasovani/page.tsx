@@ -36,7 +36,6 @@ const Page = () => {
             setCraftBook(craftBookData.pozice_serveru)
             setMinecraftList(mclistData.rank)
             setCreeperList(crepperData.position)
-            setMcsrvlist(mcsrvlistData.data.position)
             // setCzechCraft(czCraftData.position)
             // setCraftlist(craftListData.rank)
         }
@@ -119,16 +118,6 @@ const Page = () => {
                             <div>
                                 <h3>CreeperList</h3>
                                 <p>Pozice: {creeperList}</p>
-                            </div>
-                            <div>
-                                <img src="/logo-creeperlist.svg" alt="logo"/>
-                            </div>
-                        </a>
-
-                        <a href={"https://craftbook.cz/server/74"} target={"_blank"} className={styles.card + " " + styles.creeperlist}>
-                            <div>
-                                <h3>MCServer-List</h3>
-                                <p>Pozice: {mcsrvlist}</p>
                             </div>
                             <div>
                                 <img src="/logo-creeperlist.svg" alt="logo"/>

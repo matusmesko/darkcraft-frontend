@@ -74,9 +74,8 @@ const getCreeperListAPI = async () => {
 
 const getMCSRVLISTAPI = async () => {
     return await fetch('https://mcserver-list.eu/api/server/464', {
-        cache: 'no-cache',
         method: 'GET',
-        credentials: 'include',
+        credentials: 'include'
     })
         .then(res => res.json())
         .then((result: any) => {
