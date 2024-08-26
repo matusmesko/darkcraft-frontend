@@ -3,7 +3,7 @@ import React, {useEffect, useState} from 'react';
 import styles from "./page.module.scss"
 import Wrapper from "@/components/wrapper/Wrapper";
 import { FiLink } from "react-icons/fi";
-import {getCraftBookAPI, getMinecraftListAPI, getMinecraftServeryAPI} from "@/uitls/fetch";
+import {getCraftBookAPI, getMinecraftListAPI, getMinecraftServeryAPI, getCreeperListAPI, getMCSRVLISTAPI} from "@/uitls/fetch";
 import {getCzechCraftAPI} from "@/uitls/fetch";
 import {getCraftListAPI} from "@/uitls/fetch";
 import { motion, useScroll } from "framer-motion"
@@ -16,6 +16,8 @@ const Page = () => {
     const [craftList, setCraftlist]: any = useState(0);
     const [craftBook, setCraftBook]: any = useState(0);
     const [minecraftList, setMinecraftList]: any = useState(0);
+    const [creeperList, setCreeperList]: any = useState(0);
+    const [mcsrvlist, setMcsrvlist]: any = useState(0);
 
 
     useEffect(() => {
@@ -26,11 +28,15 @@ const Page = () => {
             const msData = await getMinecraftServeryAPI()
             const craftBookData = await getCraftBookAPI()
             const mclistData = await getMinecraftListAPI()
+            const crepperData = await getCreeperListAPI();
+            const mcsrvlistData = await getMCSRVLISTAPI();
             // const czCraftData = await getCzechCraftAPI()
             // const craftListData = await getCraftListAPI()
             setMinecraftServery(msData.position.votes)
             setCraftBook(craftBookData.pozice_serveru)
             setMinecraftList(mclistData.rank)
+            setCreeperList(crepperData.position)
+            setMcsrvlist(mcsrvlistData.data.position)
             // setCzechCraft(czCraftData.position)
             // setCraftlist(craftListData.rank)
         }
@@ -68,6 +74,12 @@ const Page = () => {
                             <button type={"submit"}
                                     onClick={() => window.open("https://craftbook.cz/server/74/vote", '_blank')}>craftbook.cz <FiLink/>
                             </button>
+                            <button type={"submit"}
+                                    onClick={() => window.open("https://creeperlist.eu/vote/43/" + userName + "/", '_blank')}>creeperlist.eu <FiLink/>
+                            </button>
+                            <button type={"submit"}
+                                    onClick={() => window.open("https://mcserver-list.eu/cs/vote/464/" + userName, '_blank')}>mcserver-list.eu <FiLink/>
+                            </button>
                         </div>
                     </form>
 
@@ -100,6 +112,26 @@ const Page = () => {
                             </div>
                             <div>
                                 <img src="/logo-craftbook.png" alt="logo"/>
+                            </div>
+                        </a>
+
+                        <a href={"https://craftbook.cz/server/74"} target={"_blank"} className={styles.card + " " + styles.creeperlist}>
+                            <div>
+                                <h3>CreeperList</h3>
+                                <p>Pozice: {creeperList}</p>
+                            </div>
+                            <div>
+                                <img src="/logo-creeperlist.svg" alt="logo"/>
+                            </div>
+                        </a>
+
+                        <a href={"https://craftbook.cz/server/74"} target={"_blank"} className={styles.card + " " + styles.creeperlist}>
+                            <div>
+                                <h3>MCServer-List</h3>
+                                <p>Pozice: {mcsrvlist}</p>
+                            </div>
+                            <div>
+                                <img src="/logo-creeperlist.svg" alt="logo"/>
                             </div>
                         </a>
                     </div>

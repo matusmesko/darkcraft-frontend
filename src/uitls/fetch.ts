@@ -62,11 +62,37 @@ const getMinecraftListAPI = async () => {
         });
 };
 
+const getCreeperListAPI = async () => {
+    return await fetch('https://creeperlist.eu/api/getServerInfo?id=43', {
+        cache: 'no-cache'
+    })
+        .then(res => res.json())
+        .then((result: any) => {
+            return result;
+        });
+};
+
+const getMCSRVLISTAPI = async () => {
+    return await fetch('https://mcserver-list.eu/api/server/464', {
+        cache: 'no-cache',
+        method: 'GET',
+        credentials: 'include',
+    })
+        .then(res => res.json())
+        .then((result: any) => {
+            return result;
+        });
+};
+
+
+
 export {
     getMcServerInfo,
     getMinecraftServeryAPI,
     getCzechCraftAPI,
     getCraftListAPI,
     getCraftBookAPI,
-    getMinecraftListAPI
+    getMinecraftListAPI,
+    getCreeperListAPI,
+    getMCSRVLISTAPI
 }
