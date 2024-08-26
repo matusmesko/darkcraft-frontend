@@ -29,7 +29,7 @@ const Page = () => {
             const craftBookData = await getCraftBookAPI()
             const mclistData = await getMinecraftListAPI()
             const crepperData = await getCreeperListAPI();
-            const mcsrvlistData = await getMCSRVLISTAPI();
+            //const mcsrvlistData = await getMCSRVLISTAPI();
             // const czCraftData = await getCzechCraftAPI()
             // const craftListData = await getCraftListAPI()
             setMinecraftServery(msData.position.votes)
