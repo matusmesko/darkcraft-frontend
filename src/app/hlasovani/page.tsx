@@ -29,13 +29,14 @@ const Page = () => {
             const craftBookData = await getCraftBookAPI()
             const mclistData = await getMinecraftListAPI()
             const crepperData = await getCreeperListAPI();
-            //const mcsrvlistData = await getMCSRVLISTAPI();
+            const mcsrvlistData = await getMCSRVLISTAPI();
             // const czCraftData = await getCzechCraftAPI()
             // const craftListData = await getCraftListAPI()
             setMinecraftServery(msData.position.votes)
             setCraftBook(craftBookData.pozice_serveru)
             setMinecraftList(mclistData.rank)
             setCreeperList(crepperData.position)
+            setMcsrvlist(mcsrvlistData.data.position)
             // setCzechCraft(czCraftData.position)
             // setCraftlist(craftListData.rank)
         }
@@ -118,6 +119,16 @@ const Page = () => {
                             <div>
                                 <h3>CreeperList</h3>
                                 <p>Pozice: {creeperList}</p>
+                            </div>
+                            <div>
+                                <img src="/logo-creeperlist.svg" alt="logo"/>
+                            </div>
+                        </a>
+
+                        <a href={"https://craftbook.cz/server/74"} target={"_blank"} className={styles.card + " " + styles.creeperlist}>
+                            <div>
+                                <h3>McServerList.eu</h3>
+                                <p>Pozice: {mcsrvlist}</p>
                             </div>
                             <div>
                                 <img src="/logo-creeperlist.svg" alt="logo"/>
