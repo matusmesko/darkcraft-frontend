@@ -125,7 +125,7 @@ const Page = () => {
                             </div>
                         </a>
 
-                        <a href={"https://craftbook.cz/server/74"} target={"_blank"} className={styles.card + " " + styles.mcserverlist}>
+                        <a href={"https://mcserver-list.eu/cs/server/464"} target={"_blank"} className={styles.card + " " + styles.mcserverlist}>
                             <div>
                                 <h3>McServer-List</h3>
                                 <p>Pozice: {mcsrvlist}</p>
