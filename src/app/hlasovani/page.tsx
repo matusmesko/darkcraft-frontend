@@ -95,7 +95,7 @@ const Page = () => {
                             </div>
                         </a>
 
-                        <a href={"https://www.minecraft-list.cz/server/darkcraft"} target={"_blank"} className={styles.card + " " + styles.minecraftlist}>
+                        <a href={"https://www.minecraft-list.cz/server/darkcraft"} target={"_blank"} style={{background: `url("/hlasovani.png") no-repeat`}} className={styles.card}>
                             <div>
                                 <h3>MinecraftList</h3>
                                 <p>Pozice: {minecraftList}</p>
