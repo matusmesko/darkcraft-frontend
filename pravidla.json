@@ -9,7 +9,7 @@
         "4. Povinností každého hráče je v první řadě dodržovat veškeré zákony a ustanovení České a Slovenské republiky.",
         "5. Vedení serveru si vyhrazuje právo změnit pravidla bez předchozího upozornění.",
         "6. Nehledejte chyby a mezery v pravidlech, nezneužívejte je a neslovíčkařte. Pokud nějakou takovou mezeru najdete, nahlašte ji přímo AT, abychom ji mohli opravit.",
-        "7. Veškeré stížnosti na členy AT směřujte do ticket systému na Discordu či na E-Mail: misak.burianek@seznam.cz",
+        "7. Veškeré stížnosti na členy AT směřujte do ticket systému na Discordu či na E-Mail: support@darkcraft.cz ",
         "8. AT má právo vyzvat hráče k ukončení jakékoli činnosti, jenž porušuje pravidla serveru. Hráč je povinen výzvu uposlechnout.",
         "9. Nikdy nikomu nesdělujte své přihlašovací údaje, platí i pro AT. Vedení vaše údaje nepotřebuje znát a v případě změny hesla apod.. je schopné si údaje dohledat bez vašeho zásahu.",
         "10. Každý hráč si za svůj účet nese odpovědnost sám. To znamená žádné výmluvy na sourozence, kočky, psy, morčata ani nic jiného.",
@@ -46,7 +46,7 @@
       "9. Pokud byl hráč umlčen, je mu povoleno komunikovat s ostatními pomocí friends nebo cedulek.",
       "10. Odkazy, které posíláte musí být bezpečné a nesmí obsahovat reklamu, nahotu, hazard ani žádné jiné 18+ prvky. Veškerá pravidla se vztahují i na obsah na povolených stránkách.",
       "11. Rozsáhlé debaty o náboženství nejsou kvůli citlivosti tématu povoleny.",
-      "12. Zákaz tvoření jakékoliv reklamy pro hazard. Pochopitelně do této sekce spadají primárně kasína a ostatní takové stránky.",
+      "12. Zákaz tvoření jakékoliv reklamy pro hazard, která není ve hře. Pochopitelně do této sekce spadají primárně kasína a ostatní takové stránky.",
       "13. Je přísně zakázáno spamovat, či vytvářet nadbytečné reporty."
     ]
   },
@@ -72,7 +72,7 @@
       "1. Server nenese žádnou odpovědnost za změny způsobené přechodem na novější či starší verzi Minecraftu.",
       "2. Je přísně zakázáno poškozovat stavební svět jakýmkoliv způsobem.",
       "3. Je přísně zakázáno griefovat nebo jakkoliv jinak úmyslně ničit stavby ostatních hráčů. To platí i v případě, že vám hráč přidal povolení v res.",
-      "4. Zákaz si přivlastňovat nebo ničit cizí stavby/předměty, pokud nejsou plně v blízké residenci.",
+      "4. Je zákaz si přivlastňovat nebo ničit cizí stavby/předměty, pokud nejsou plně v blízké residenci.",
       "5. Teleportace hráče k jinému hráči za účelem zabití je přísně zakázána a trestána (TpaKill).",
       "6. Těžební svět se vždy po intervalech resetuje, proto doporučujeme v něm nic nestavět.",
       "7. Neničte železnice a ledové dráhy (pro lodě). Tímto způsobem si hráči propojují base. Jedná se o společný komunitní projekt, který nelze plně ochránit reskou a tak je tu toto pravidlo.",
@@ -133,7 +133,7 @@
     ]
   },
   "otherInfo": [
-    "Trest může být udělen od vedení serveru i z jakýkoliv jiných důvodů, než jsou výšepopsané.",
+    "Trest může být udělen od vedení serveru i z jakýkoliv jiných důvodů, než jsou výše popsané.",
     "Činnosti, které nejsou mezi zakázanými nemusejí být vždy brány jako povolené."
   ]
 }
