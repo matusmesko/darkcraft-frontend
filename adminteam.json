@@ -35,7 +35,7 @@
     "players": [
       {
         "name": "Gerwyyn",
-        "rank": "Hl. Helper",
+        "rank": "Hl.Helper",
         "color": "#de5757",
         "uuid": "ad4dfc7c4518416fafc8b3e3cd7d2ffc"
       },
@@ -96,18 +96,18 @@
       {
         "name": "MastraDev",
         "rank": "Hl.Builder",
-        "color": "236cfb",
+        "color": "#236cfb",
         "uuid": "202e6019c9304f86962d80f1f85f74eb"
       },
       {
-        "name": "Wlouk",
-        "rank": "Builder",
+        "name": "Cnvcsn",
+        "rank": "Zk.Builder",
         "color": "#57debf",
-        "uuid": "a949a02b0a3044b0b9904e1af0943d55"
+        "uuid": "8667ba71b85a4004af54457a9734eed7"
       },
       {
-        "name": "Csvncsn",
-        "rank": "Builder",
+        "name": "ddominik_123",
+        "rank": "Zk.Builder",
         "color": "#57debf",
         "uuid": "8667ba71b85a4004af54457a9734eed7"
       }
