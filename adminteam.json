@@ -76,16 +76,16 @@
         "uuid": "2b0e006180ba458b823364d1742a07ed"
       },
       {
-        "name": "Bad_Monster",
-        "rank": "Eventer",
+        "name": "TomasOCELAR",
+        "rank": "Zk.Eventer",
         "color": "#de9457",
-        "uuid": "00c61eec808b49139faa2d5af369e398"
+        "uuid": "74ef332c-99b4-46c8-9e9f-a0a0336c2e59"
       },
       {
-        "name": "slipka2",
-        "rank": "Eventer",
+        "name": "Termit98",
+        "rank": "Zk.Eventer",
         "color": "#de9457",
-        "uuid": "883478a424dc4419b45822f065cbc065"
+        "uuid": "6554a5c7-f789-4e83-93e4-90eaa8a0ee71"
       }
     ]
   },
@@ -109,7 +109,7 @@
         "name": "ddominik_123",
         "rank": "Zk.Builder",
         "color": "#57debf",
-        "uuid": "8667ba71b85a4004af54457a9734eed7"
+        "uuid": "f8e268bb-9dae-4a79-9855-c9a198028773"
       }
     ]
   }
