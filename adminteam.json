@@ -94,16 +94,16 @@
     "show": true,
     "players": [
       {
+        "name": "MastraDev",
+        "rank": "Hl.Builder",
+        "color": "236cfb",
+        "uuid": "202e6019c9304f86962d80f1f85f74eb"
+      },
+      {
         "name": "Wlouk",
         "rank": "Builder",
         "color": "#57debf",
         "uuid": "a949a02b0a3044b0b9904e1af0943d55"
-      },
-      {
-        "name": "MastraDev",
-        "rank": "Builder",
-        "color": "#57debf",
-        "uuid": "202e6019c9304f86962d80f1f85f74eb"
       },
       {
         "name": "Csvncsn",
