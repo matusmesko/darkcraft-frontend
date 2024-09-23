@@ -15,10 +15,15 @@
     "show": true,
     "players": [
       {
-        "name": "simonhrajeMC",
-        "rank": "Vedení",
+        "name": "Gerwyyn",
+        "rank": "Team Manager",
         "color": "#ded357",
-        "uuid": "9ca9215d60154a51aad1add958aa5671"
+        "uuid": "ad4dfc7c-4518-416f-afc8-b3e3cd7d2ffc"
+      {
+        "name": "MastraDev",
+        "rank": "Vedení",
+        "color": "#de5757",
+        "uuid": "202e6019-c930-4f86-962d-80f1f85f74eb"
       }
     ]
   },
@@ -34,22 +39,22 @@
     "show": true,
     "players": [
       {
-        "name": "Gerwyyn",
+        "name": "morefrajer",
         "rank": "Hl.Helper",
         "color": "#de5757",
-        "uuid": "ad4dfc7c4518416fafc8b3e3cd7d2ffc"
-      },
-      {
-        "name": "morefrajer",
-        "rank": "Helper",
-        "color": "#74de57",
         "uuid": "72073ba6d7864e25973388423af306a2"
       },
       {
         "name": "Zabacekpepe",
-        "rank": "Helperka",
-        "color": "#74de57",
+        "rank": "E.Helperka",
+        "color": "#54d61f",
         "uuid": "7db210a15a204407a84816c0f28c31b0"
+      },
+      {
+        "name": "simonhrajeMC",
+        "rank": "Helper",
+        "color": "#A1A1A1",
+        "uuid": "9ca9215d-6015-4a51-aad1-add958aa5671"
       },
       {
         "name": "MertixGOD",
@@ -80,13 +85,7 @@
         "rank": "Zk.Eventer",
         "color": "#de9457",
         "uuid": "74ef332c-99b4-46c8-9e9f-a0a0336c2e59"
-      },
       {
-        "name": "Termit98",
-        "rank": "Zk.Eventer",
-        "color": "#de9457",
-        "uuid": "6554a5c7-f789-4e83-93e4-90eaa8a0ee71"
-      }
     ]
   },
 
@@ -94,16 +93,17 @@
     "show": true,
     "players": [
       {
-        "name": "MastraDev",
-        "rank": "Hl.Builder",
-        "color": "#236cfb",
-        "uuid": "202e6019c9304f86962d80f1f85f74eb"
-      },
-      {
         "name": "Csnvcsn",
-        "rank": "Zk.Builder",
+        "rank": "Builder",
         "color": "#57debf",
         "uuid": "8667ba71b85a4004af54457a9734eed7"
+      },
+      {
+
+        "name": "oqlr",
+        "rank": "Zk.Builder",
+        "color": "#57debf",
+        "uuid": "7b791dc1-1834-4026-97db-41e71d9e1ea4"
       },
       {
         "name": "ddominik_123",
