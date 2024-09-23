@@ -7,6 +7,12 @@
         "rank": "Majitel",
         "color": "#de5757",
         "uuid": "195e0f73-8109-4b53-afce-9c5d2c479344"
+      },
+      {
+        "name": "Knedla_CZ",
+        "rank": "Co-Owner",
+        "color": "#FB7E09a",
+        "uuid": "6df577d1-0ac7-4505-bf73-d8ed55967334"
       }
     ]
 },
@@ -54,7 +60,7 @@
       {
         "name": "simonhrajeMC",
         "rank": "Helper",
-        "color": "#A1A1A1",
+        "color": "#54d61f",
         "uuid": "9ca9215d-6015-4a51-aad1-add958aa5671"
       },
       {
