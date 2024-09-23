@@ -15,16 +15,16 @@
     "show": true,
     "players": [
       {
-        "name": "Gerwyyn",
-        "rank": "Team Manager",
-        "color": "#ded357",
-        "uuid": "ad4dfc7c-4518-416f-afc8-b3e3cd7d2ffc"
-      },
-      {
         "name": "MastraDev",
         "rank": "Vedení",
-        "color": "#de5757",
+        "color": "#fbb01d",
         "uuid": "202e6019-c930-4f86-962d-80f1f85f74eb"
+      },
+      {
+        "name": "Gerwyyn",
+        "rank": "Team Manager",
+        "color": "#fbb01d",
+        "uuid": "ad4dfc7c-4518-416f-afc8-b3e3cd7d2ffc"
       }
     ]
   },
@@ -86,7 +86,7 @@
         "rank": "Zk.Eventer",
         "color": "#de9457",
         "uuid": "74ef332c-99b4-46c8-9e9f-a0a0336c2e59"
-      {
+      }
     ]
   },
 
