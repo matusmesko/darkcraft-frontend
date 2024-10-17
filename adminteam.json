@@ -82,12 +82,6 @@
     "show": true,
     "players": [
       {
-        "name": "salamander4",
-        "rank": "Eventer",
-        "color": "#de9457",
-        "uuid": "2b0e006180ba458b823364d1742a07ed"
-      },
-      {
         "name": "TomasOCELAR",
         "rank": "Zk.Eventer",
         "color": "#de9457",
